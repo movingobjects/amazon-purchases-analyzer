@@ -14,7 +14,7 @@
   },
   "scripts": {
     "dev": "parcel serve './src/index.html' --no-cache --open",
-    "build": "rm -rf './dist'; parcel build './src/index.html' --dist-dir './dist' --no-source-maps",
+    "build": "rm -rf './docs'; parcel build './src/index.html' --dist-dir './docs' --no-source-maps",
     "empty-cache": "rm -rf './.parcel-cache'"
   },
   "devDependencies": {
