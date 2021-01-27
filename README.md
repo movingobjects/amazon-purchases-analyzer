@@ -1,1 +1,1 @@
-# amazon-purchase-history
+# amazon-purchases-analyzer

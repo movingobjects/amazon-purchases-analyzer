@@ -1,0 +1,33 @@
+{
+  "name": "amazon-purchases-analyzer",
+  "productName": "Amazon Purchases Analyzer",
+  "version": "0.1.0",
+  "description": "Charts Amazon purchase history",
+  "license": "ISC",
+  "author": "Scott Thiessen (http://movingobjects.io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/movingobjects/amazon-purchases-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/movingobjects/amazon-purchases-analyzer/issues"
+  },
+  "scripts": {
+    "dev": "parcel serve './src/index.html' --no-cache --open",
+    "build": "rm -rf './dist'; parcel build './src/index.html' --dist-dir './dist' --no-source-maps",
+    "empty-cache": "rm -rf './.parcel-cache'"
+  },
+  "devDependencies": {
+    "parcel": "next",
+    "postcss-modules": "^3.2.2",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-bar-chart": "^0.1.2",
+    "react-dom": "^17.0.1"
+  }
+}
